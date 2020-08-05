@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup')]/providers/Microsoft.Sql/servers/elibrarydbserver/databases/elibraryDB",
+      "type": "mssql.azure",
+      "connectionId": "con",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
